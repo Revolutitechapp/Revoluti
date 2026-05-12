@@ -3,13 +3,12 @@
     "status": true,
     "toolbar": true,
     "navigation_drawer": true,
-    "geolocation": false,
-    "cache": false,
+    "geolocation": true,
+    "cache": true,
     "open_link_in_external_browser": false,
     "zoom_controls": false,
     "user_agent": "",
-    "privacy_policy_url": "https://revolutitech.urbanhome.id/guide/s9/newfolder/privacypolicy.html",
-    "more_apps_url": "https://play.google.com/store/apps/developer?id=Revoluti+Tech",
+    "more_apps_url": "https://play.google.com/store/search?q=revoluti_tech&c=apps",
     "redirect_url": ""
   },
   "intro": {
@@ -43,32 +42,17 @@
   },
   "menus": [
     {
-      "name": "RoHS SmartWatch App Guide",
-      "type": "url",
-      "icon": "https://revolutitech.urbanhome.id/guide/s9/newfolder/homepage/ic_home2.png",
-      "url": "https://revolutitech.urbanhome.id/guide/s9/newfolder/homepage.html",
-      "url_dark": "https://revolutitech.urbanhome.id/guide/s9/newfolder/homepage.html"
-    },
-    {
-      "name": "Contact",
-      "type": "url",
-      "icon": "https://revolutitech.urbanhome.id/guide/s9/newfolder/homepage/ic_contact.png",
-      "url": "https://revolutitech.urbanhome.id/guide/s9/newfolder/contactus.html",
-      "url_dark": "https://revolutitech.urbanhome.id/guide/s9/newfolder/contactus.html"
-    },
-    {
-      "name": "Privacy Policy",
-      "type": "url",
-      "icon": "https://revolutitech.urbanhome.id/guide/s9/newfolder/homepage/ic_privacy.png",
-      "url": "https://revolutitech.urbanhome.id/guide/s9/newfolder/privacypolicy.html",
-      "url_dark": "https://revolutitech.urbanhome.id/guide/s9/newfolder/privacypolicy.html"
+      "name": "",
+      "type": "assets",
+      "icon": "ic_home.png",
+      "url": "index.html",
+      "url_dark": "index.html"
     }
   ],
   "ads": {
-    "ad_status": true,
+    "ad_status": false,
     "main_ads": "admob",
     "backup_ads": "none",
-    "admob_publisher_id": "pub-3940256099942544",
     "admob_banner_unit_id": "ca-app-pub-3940256099942544/9214589741",
     "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
     "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
@@ -94,18 +78,13 @@
     "ironsource_app_key": "85460dcd",
     "ironsource_banner_placement_name": "DefaultBanner",
     "ironsource_interstitial_placement_name": "DefaultInterstitial",
-    "wortise_app_id": "test-app-id",
-    "wortise_banner_ad_unit_id": "test-banner",
-    "wortise_interstitial_ad_unit_id": "test-interstitial",
-    "wortise_native_ad_unit_id": "test-native",
-    "wortise_app_open_ad_unit_id": "test-app-open",
     "interstitial_ad_interval_on_drawer_menu": 3,
-    "interstitial_ad_interval_on_web_page_link": 5,
+    "interstitial_ad_interval_on_web_page_link": 2,
     "native_ad_style_drawer_menu": "medium",
     "native_ad_style_exit_dialog": "medium",
     "placement": {
       "banner_home": true,
-      "interstitial_drawer_menu": true,
+      "interstitial_drawer_menu": false,
       "interstitial_web_page_link": true,
       "native_drawer_menu": true,
       "native_exit_dialog": true,
