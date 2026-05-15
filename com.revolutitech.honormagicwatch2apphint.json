@@ -45,8 +45,8 @@
       "name": "Honor Magic Watch 2 App Hint",
       "type": "assets",
       "icon": "ic_home.png",
-      "url": "index.html",
-      "url_dark": "index.html"
+      "url": "splash.html",
+      "url_dark": "splash.html"
     }
   ],
   "ads": {
