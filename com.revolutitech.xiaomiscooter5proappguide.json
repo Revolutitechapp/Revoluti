@@ -45,8 +45,8 @@
       "name": "Xiaomi Scooter 5 Pro App Guide",
       "type": "assets",
       "icon": "ic_home.png",
-      "url": "onboarding.html",
-      "url_dark": "onboarding.html"
+      "url": "index.html",
+      "url_dark": "index.html"
     }
   ],
   "ads": {
